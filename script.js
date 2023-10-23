@@ -1,42 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>GDPR Compliance Chat</title>
-  <style>
-    #chat {
-      white-space: pre-wrap;
-      height: 300px;
-      overflow: auto;
-      border: 1px solid #ccc;
-      padding: 10px;
-      margin-bottom: 10px;
-    }
-
-    .bold {
-      font-weight: bold;
-    }
-
-    @keyframes blink {
-      0% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-    .blink {
-      animation: blink 1s linear infinite;
-    }
-  </style>
-</head>
-<body>
-
-
   <script>
     const API_KEY = "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";
     const API_URL = "https://api.openai.com/v1/chat/completions";
@@ -206,5 +167,3 @@
       }
     });
   </script>
-</body>
-</html>
